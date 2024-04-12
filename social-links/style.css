@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  box-sizing: border-box;
+  margin: 0;
+  background-color: hsl(0, 0%, 8%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Inter", sans-serif;
+}
+
+#card {
+  width: 310px;
+  height: 480px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 12px;
+}
+
+#avatar {
+  width: 70px;
+  border-radius: 50%;
+
+  margin-bottom: 20px;
+}
+
+#name {
+  font-size: 20px;
+  font-weight: 650;
+  color: hsl(0, 0%, 100%);
+}
+
+#location {
+  font-size: 12px;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin-top: 6px;
+}
+
+#description {
+  font-size: 12px;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+#content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content1-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 18px;
+}
+
+#content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 13px;
+  margin-top: 20px;
+}
+
+.button {
+  width: 260px;
+  height: 37px;
+
+  border: none;
+  border-radius: 6px;
+
+  font-weight: bold;
+
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+
+  &:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+  }
+}
